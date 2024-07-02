@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
     android:background="#f7f7f7"
     android:orientation="vertical">
 
@@ -66,6 +67,7 @@
             android:textColor="@color/orange"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -77,6 +79,7 @@
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -88,6 +91,7 @@
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -111,6 +115,7 @@
             android:textColor="@color/orange"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -122,6 +127,7 @@
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -133,6 +139,7 @@
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -156,6 +163,7 @@
             android:textColor="@color/orange"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -167,6 +175,7 @@
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -178,6 +187,7 @@
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -201,6 +211,7 @@
             android:textColor="@color/orange"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -212,6 +223,7 @@
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
@@ -223,6 +235,7 @@
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="60dp"
