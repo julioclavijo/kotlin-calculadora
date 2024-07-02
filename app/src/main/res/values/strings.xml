@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">calculator-umb</string>
+    <string name="double_zero">00</string>
 </resources>

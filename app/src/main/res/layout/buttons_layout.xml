@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom"
@@ -10,17 +11,12 @@
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_margin="20dp"
         app:columnCount="4"
         app:rowCount="5">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_c"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -30,22 +26,28 @@
             android:textAlignment="center"
             android:textColor="@color/blue"
             android:textColorLink="#656565"
-            android:textSize="22dp" />
+            android:textSize="18dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_del"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
-            android:backgroundTint="#ffffff"
+            android:width="60dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
             android:fontFamily="@font/poppins"
-            android:text="d"
-            android:textColor="@color/blue"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:layoutDirection="inherit"
             android:textColorLink="#656565"
-            android:textSize="24sp" />
+            app:icon="@drawable/ic_del"
+            app:iconPadding="0dp"
+            app:iconSize="16dp"
+            app:iconTint="@color/blue" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_percent"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -54,10 +56,10 @@
             android:text="%"
             android:textColor="@color/orange"
             android:textColorLink="#656565"
-            android:textSize="24sp" />
+            android:textSize="18dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_div"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -66,10 +68,10 @@
             android:text="÷"
             android:textColor="@color/orange"
             android:textColorLink="#656565"
-            android:textSize="24sp" />
+            android:textSize="20dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_seven"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -81,7 +83,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_eight"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -93,7 +95,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_nine"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -105,7 +107,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_equis"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -117,7 +119,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_cuatro"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -129,7 +131,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_cinco"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -141,7 +143,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_seis"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -153,7 +155,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_minus"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -165,7 +167,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_one"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -177,7 +179,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_two"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -189,7 +191,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_three"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -201,7 +203,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_plus"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -213,7 +215,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_dot"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -225,7 +227,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_zero"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -237,19 +239,19 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_doublezero"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
             android:backgroundTint="#ffffff"
             android:fontFamily="@font/poppins"
-            android:text="00"
+            android:text="@string/double_zero"
             android:textColor="@color/grey"
             android:textColorLink="#656565"
             android:textSize="10sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_equal"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="24px"
@@ -258,6 +260,6 @@
             android:text="="
             android:textColor="@color/white"
             android:textColorLink="#656565"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
     </androidx.gridlayout.widget.GridLayout>
 </LinearLayout>
