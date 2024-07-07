@@ -7,6 +7,19 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    // Operaciones
+    val suma = "+"
+    val resta = "-"
+    val multiplicacion="*"
+    val division = "/"
+    val porcentaje = "%"
+
+    var operacion = ""
+
+    var numeroUno:Double = Double.NaN
+    var numeroDos:Double = Double.NaN
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

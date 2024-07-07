@@ -12,7 +12,18 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/temporal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:padding="8dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="@color/clay"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/resultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
@@ -28,4 +39,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom" />
+
 </LinearLayout>
